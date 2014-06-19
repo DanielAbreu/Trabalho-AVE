@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Trabalho_Final_AVE
+namespace TrabalhoFinal
 {
     public interface IDataMapper <T>{
         IEnumerable <T> GetAll(); // Devolve todos os elementos da tabela correspondente 
